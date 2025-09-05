@@ -1,23 +1,8 @@
-def ceaserCipherEncryption(s,k):
-    ans=""
-    for i in range(0,len(s)):
-        char =s[i]
-        if(char.isupper()):
-            ans=ans+chr((ord(char)+k-65)%26+65)
-        else:
-            ans=ans+chr((ord(char)+k-97)%26+97)
-    return ans
-    
-def ceaserCipherDecryption(s,k):
-    ans=""
-    for i in range(0,len(s)):
-        char =s[i]
-        if(char.isupper()):
-            ans=ans+chr((ord(char)-k-65)%26+65)
-        else:
-            ans=ans+chr((ord(char)-k-97)%26+97)
-    return ans
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'set2')))
 
+from additiveCipher import ceaserCipherDecryption
 
 
 s="PDAKLANWPEKJOPWNP"
