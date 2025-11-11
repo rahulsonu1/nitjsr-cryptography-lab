@@ -1,0 +1,15 @@
+(a) n - 1 = 2^1 * 500001
+
+Base a = 2
+a^d mod n = 1000002
+Passes this round (trivial).
+
+Base a = 3
+a^d mod n = 1000002
+Passes this round (trivial).
+
+Base a = 5
+a^d mod n = 1000002
+Passes this round (trivial).
+
+for Question 1 ,question2 ,i have found question to have error ,please check

@@ -1,0 +1,2 @@
+def egcd(a,b):
+    

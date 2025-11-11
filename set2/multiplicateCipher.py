@@ -15,8 +15,8 @@ def decrypt(text, k):
     return ''.join(chr(((ord(c)-65)*inv)%26 + 65) for c in text.upper() if c.isalpha())
 
 
-key = 5
-msg = "HELLO"
+key = 
+msg = "TEST"
 enc = encrypt(msg, key)
 dec = decrypt(enc, key)
 

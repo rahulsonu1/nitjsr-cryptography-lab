@@ -33,7 +33,7 @@ def dec(txt,m):
         else:o+=m[r1][c2]+m[r2][c1]
     return o
 
-# Example
+
 mat=key_matrix("PLAYFAIR")
 msg="HELLO"
 e=enc(msg,mat); d=dec(e,mat)
